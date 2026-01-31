@@ -1,4 +1,8 @@
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/transparent.png" width="100%" height="20">
+<p align="center">
+  <img src="https://moe-counter.glitch.me/get/@Yelli915?theme=rule734" alt="Yelli915's View Counter" />
+  <br>
+  <img src="https://my-readme-stats.vercel.app/api?username=Yelli915&show_icons=true&theme=dark" />
+</p>
 
 ## 불성실하게 살기
 

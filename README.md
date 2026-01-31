@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=45&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Keep+Calm+and...;%EB%B6%88%EC%84%B1%EC%8B%A4%ED%95%98%EA%B2%8C+%EC%82%B4%EA%B8%B0;Frontend+Developer+Yeri" alt="Typing SVG" />
-
-<br>
-
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=yeri8791)](https://solved.ac/yeri8791/)
 
 <br>

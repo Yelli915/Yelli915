@@ -3,13 +3,12 @@
 > 특정 스택에 갇히지 않고, **비즈니스와 사용자 경험의 문제를 데이터·AI 기술로 구조화하여 해결하는 엔지니어**입니다.
 
 [![GitHub](https://img.shields.io/badge/GitHub-yelli915-181717?style=flat-square&logo=github)](https://github.com/yelli915)
-[![Contact](https://img.shields.io/badge/Email-Contact_Me-D14836?style=flat-square&logo=gmail)](mailto:your-email@example.com)
 
 ---
 
 ## 💡 Engineering Focus & Problem Solving
 
-* **도메인 문제 정의**: 복잡한 사용자 페인 포인트(Pain Point)를 직관적인 인터랙션과 시스템으로 단순화합니다.
+* **도메인 문제 정의**: 복잡한 사용자 Pain Point를 직관적인 인터랙션과 시스템으로 단순화합니다.
 * **AI & 데이터 기반 해결**: 정형/비정형 데이터를 정제하고, LLM과 프롬프트 엔지니어링을 결합해 실질적인 자동화 가치를 만듭니다.
 * **확장 가능한 엔지니어링**: UI 시각화부터 백엔드 데이터 파이프라인까지, 문제가 요구하는 최선의 기술 체계를 구축합니다.
 

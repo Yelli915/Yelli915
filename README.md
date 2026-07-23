@@ -1,8 +1,7 @@
 # 🟢 Status: Active | Yelli915
 
 > 특정 스택에 갇히지 않고, **비즈니스와 사용자 경험의 문제를 데이터·AI 기술로 구조화하여 해결하는 엔지니어**입니다.
-
-[![GitHub](https://img.shields.io/badge/GitHub-yelli915-181717?style=flat-square&logo=github)](https://github.com/yelli915)
+[![Naver Blog](https://img.shields.io/badge/Naver_Blog-yelli915-03CF5D?style=for-the-badge&logo=naver&logoColor=white)](https://blog.naver.com/yeri8791)
 
 ---
 

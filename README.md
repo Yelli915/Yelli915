@@ -1,7 +1,9 @@
 # 🟢 Status: Active | Yelli915
 
 > 특정 스택에 갇히지 않고, **비즈니스와 사용자 경험의 문제를 데이터·AI 기술로 구조화하여 해결하는 엔지니어**입니다.
+
 [![Naver Blog](https://img.shields.io/badge/Naver_Blog-yelli915-03CF5D?style=for-the-badge&logo=naver&logoColor=white)](https://blog.naver.com/yeri8791)
+[![Tistory](https://img.shields.io/badge/Tistory-yelli915-EA5328?style=for-the-badge&logo=tistory&logoColor=white)](https://yelli915.tistory.com/)
 
 ---
 
@@ -37,8 +39,11 @@
 ### 📖 ReadWith — LLM 기반 등장인물 관계 시각화 시스템
 > **Team Project / Awarded (최우수상)**
 
-* **Problem**: 방대한 도서 등장인물 간의 관계와 맥락을 파악하기 어려운 높은 독서 진입 장벽
-* **Solution**: Gemini API로 핵심 텍스트 관계망을 자동 도출하고 인터랙티브 그래프로 시각화하여 정보 전달력 도모
+* **Problem**: 방대한 도서 텍스트에서 인물 관계를 파악하는 높은 인지 부하 및 정적 텍스트 중심 독서 UX의 한계
+* **Solution**: 
+  * Gemini API 기반 프롬프트 엔지니어링으로 텍스트 내 인물 간 상호작용 및 관계 데이터 구조화
+  * `Cytoscape.js` 엔진을 활용한 동적 인터랙티브 네트워크 그래프 UI 구현으로 시각적 탐색 경험 제공
+  * Supabase 기반 캐싱 및 데이터 저장 파이프라인 구축을 통한 반복 호출 비용 및 렌더링 지연 최소화
 * **Tech**: `React` `Cytoscape.js` `Gemini API` `Supabase`
 * **Links**: [🔗 Live Demo](https://readwith-frontend.vercel.app/) | [💻 Repo](https://github.com/Read-With)
 

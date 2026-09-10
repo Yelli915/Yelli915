@@ -36,15 +36,16 @@
 
 ## 🚀 Solved Projects
 
-### 📖 ReadWith — LLM 기반 등장인물 관계 시각화 시스템
-> **Team Project / Awarded (최우수상)**
+### 📖 ReadWith — 독서 진행 위치 기반 등장인물 관계 시각화 시스템
+> **Team Project / Awarded (캡스톤디자인 최우수상)**
 
-* **Problem**: 방대한 도서 텍스트에서 인물 관계를 파악하는 높은 인지 부하 및 정적 텍스트 중심 독서 UX의 한계
+* **Problem**: 방대한 소설 텍스트의 복잡한 인물 관계 파악 한계, 전체 관계도 제공으로 인한 스포일러 노출, EPUB 리더 화면과 AI 분석 텍스트 간의 위치 단절
 * **Solution**: 
-  * Gemini API 기반 프롬프트 엔지니어링으로 텍스트 내 인물 간 상호작용 및 관계 데이터 구조화
-  * `Cytoscape.js` 엔진을 활용한 동적 인터랙티브 네트워크 그래프 UI 구현으로 시각적 탐색 경험 제공
-  * Supabase 기반 캐싱 및 데이터 저장 파이프라인 구축을 통한 반복 호출 비용 및 렌더링 지연 최소화
-* **Tech**: `React` `Cytoscape.js` `Gemini API` `Supabase`
+  * 문단 기반 `locator`와 canonical `txtOffset`을 양방향 매핑하는 좌표계를 구축하여 뷰어 화면 위치와 AI 분석 이벤트 구간을 1:1 정합
+  * 사건별 관계 변화량(Delta)만 DB에 적재한 뒤 독자의 현재 독서 위치 이전 사건까지만 동적 누적(Fold) 연산하여 **스포일러 차단 그래프** 구현
+  * 누적 스냅샷 방식 대비 관계 item 수 약 95.9%, JSON 페이로드 크기 약 94.9% 절감 및 S3 Staging 기반 비동기 적재 파이프라인 구축
+  * `Cytoscape.js` 엔진을 활용해 독서 진도와 실시간 연동되는 동적 인터랙티브 네트워크 그래프 UI 구현
+* **Tech**: `React` `Cytoscape.js` `Spring Boot` `MySQL` `AWS S3`
 * **Links**: [🔗 Live Demo](https://readwith-frontend.vercel.app/) | [💻 Repo](https://github.com/Read-With)
 
 <br>

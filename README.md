@@ -71,7 +71,7 @@
 <br>
 
 ### SkinAgent — AI 기반 맞춤형 스킨케어 성분 충돌 분석 및 루틴 케어 에이전트
-> **Team Project (6인) / AI Agent Architecture Reference**
+> **AI Agent Architecture Reference**
 
 * **Problem**: 
   * 화장품 병용 시 발생하는 성분 간 충돌 위험(비타민C, 레티놀 등)의 수동 대조 한계
@@ -89,7 +89,7 @@
 <br>
 
 
-### 📊 Medical Big Data Analytics Project
+### Medical Big Data Analytics Project
 > **Data Analysis / Awarded (장려상)**
 
 * **Problem**: 의료 데이터 내 대규모 결측치, 노이즈와 비정형 패턴 분석의 한계

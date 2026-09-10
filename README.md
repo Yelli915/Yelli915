@@ -71,7 +71,7 @@
 <br>
 
 ### SkinAgent — AI 기반 맞춤형 스킨케어 성분 충돌 분석 및 루틴 케어 에이전트
-> **AI Agent Architecture Reference**
+> **Personal Project / AI Agent Architecture Reference**
 
 * **Problem**: 
   * 화장품 병용 시 발생하는 성분 간 충돌 위험(비타민C, 레티놀 등)의 수동 대조 한계
@@ -89,13 +89,21 @@
 <br>
 
 
-### Medical Big Data Analytics Project
-> **Data Analysis / Awarded (장려상)**
+### 📊 Medical Big Data Analytics — 대규모 의료 시계열/임상 데이터 기반 예측 분석
+> **Data Analysis / Awarded (경진대회 장려상)**
 
-* **Problem**: 의료 데이터 내 대규모 결측치, 노이즈와 비정형 패턴 분석의 한계
-* **Solution**: 결측치 정제 파이프라인 구축 및 탐색적 데이터 분석(EDA), 통계적 시각화를 통한 인사이트 추출
-* **Tech**: `Python` `Data Analysis` `Visualization` `Scikit-Learn`
+* **Problem**: 
+  * 의료 임상 데이터 특유의 높은 결측률(Missing Value), 다수의 이상치(Outlier), 비대칭 클래스 불균형(Imbalanced Data)으로 인한 모델 성능 왜곡 및 과적합 한계
+  * 수치형 검사 지표와 범주형 진단 코드(ICD) 등 이종 데이터 간 복합 상관관계 분석 및 도메인 지식 기반 변수 정의의 난제
+  * 단순 예측 정확도(Accuracy) 중심 평가 시 발생하는 희귀 질환/위험군 오분류 리스크
 
+* **Solution**: 
+  * **체계적 데이터 전처리 파이프라인**: 변수 특성에 따른 다각적 결측치 대체(KNN Imputer, 시계열 보간) 및 도메인 임계치 기반 이상치 필터링 파이프라인 구축
+  * **탐색적 데이터 분석(EDA) & 특성 공학(Feature Engineering)**: 진단 주기, 검사 수치 변화량(Delta), 동반 질환 점수 등 임상 도메인 맞춤형 파생 변수 추출 및 상관관계/다중공선성(VIF) 검증
+  * **불균형 대응 모델링 및 최적화**: SMOTE/클래스 가중치(Class Weight) 조정을 통해 소수 위험군 예측력 강화, LightGBM/XGBoost 기반 예측 모델링 및 하이퍼파라미터 튜닝(Optuna)
+  * **인사이트 시각화 및 모델 해석력(XAI) 확보**: Seaborn/Matplotlib을 활용한 직관적 통계 리포트 작성 및 SHAP/Feature Importance 분석으로 의료진 관점의 핵심 위험 인자 기여도 규명
+
+* **Tech**: `Python` `Pandas` `Scikit-Learn` `LightGBM` `Seaborn` `Matplotlib`
 ---
 
 © 2026 Yelli915. All rights reserved.

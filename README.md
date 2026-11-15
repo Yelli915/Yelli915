@@ -101,15 +101,6 @@
   * 한계: DB 커밋과 Kafka 발행 분리(→ Outbox), 재시도·DLQ 없음, 서비스 간 DB 공유
 * **Tech**: `Java 21` `Spring Boot 3` `Spring Cloud` `Kafka` `FastAPI` `Vue 3` `MariaDB` `Docker Compose`
 
-<br>
-
-### SkinAgent — 스킨케어 성분 충돌 분석 에이전트
-> **Personal Project**
-
-* 성분 조회·충돌 분석 도구를 LLM이 대화 맥락에 따라 호출하고, 사용자 프로필은 SQLite에 저장해 세션이 끝나도 유지
-* 비의료 질문 차단, 개인정보 마스킹, 출력에 기피 성분이 있으면 다시 생성하는 가드레일
-* **Tech**: `Python` `LangGraph` `Pydantic` `SQLite` `Streamlit`
-
 ---
 
 ## 🔬 More

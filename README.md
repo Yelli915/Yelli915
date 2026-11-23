@@ -1,6 +1,6 @@
 # 🟢 Status: Active | Yelli915
 
-> 결과가 잘 나왔을 때 "진짜 잘 된 건가?"를 한 번 더 확인하는 AI 엔지니어입니다.
+> 모델의 답변을 원본 데이터와 대조하고, 실험으로 오류의 원인을 찾아 개선하는 AI 엔지니어입니다.
 
 [![Naver Blog](https://img.shields.io/badge/Naver_Blog-yelli915-03CF5D?style=for-the-badge&logo=naver&logoColor=white)](https://blog.naver.com/yeri8791)
 [![Tistory](https://img.shields.io/badge/Tistory-yelli915-EA5328?style=for-the-badge&logo=tistory&logoColor=white)](https://yelli915.tistory.com/)
